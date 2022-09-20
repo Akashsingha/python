@@ -1,0 +1,5 @@
+#a = int(input("Enter 3 number: "))
+#b = int(input("Enter 3 number: "))
+#c = int(input("Enter 3 number: "))
+a,b,c = input("Enter three number comma separated: ").split(",")
+print("Average of 3 number is ",(int(a)+int(b)+int(c))/3)

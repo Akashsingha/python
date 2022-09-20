@@ -1,0 +1,6 @@
+name = input("Enter your name: ")
+n = input("Enter a character: ")
+print("length of string is ",len(name))
+# name = name.lower()
+# print(name.count(n))
+print("character count : ",name.lower().count(n))
